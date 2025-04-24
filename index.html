@@ -9,27 +9,31 @@
 <body>
     <header>
         <nav>
-            <a href="#" class="logo">JLP</a>
-            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+            <a href="#" class="logo" aria-label="Justin L. Pabale logo">JLP</a>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                &#9776;
+            </button>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="Justin L. Pabale.pdf" target="_blank">Resume</a></li>
+                <li><a href="#about" aria-label="About section">About</a></li>
+                <li><a href="#skills" aria-label="Skills section">Skills</a></li>
+                <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+                <li><a href="Justin L. Pabale.pdf" target="_blank" aria-label="Download resume">Resume</a></li>
+                <li><a href="#blog" aria-label="Blog section">Blog</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="hero">
+        <section id="hero" class="hero" aria-label="Hero section">
             <div class="hero-content">
                 <h1>Hi, I'm Justin L. Pabale!</h1>
                 <p class="subheadline">An aspiring web developer eager to create user-friendly and functional web applications.</p>
-                <a href="#projects" class="cta-button">View My Projects</a>
+                <p>I'm a highly motivated and detail-oriented individual with a strong background in computer science. I'm excited to bring my skills and experience to a dynamic team and contribute to the development of innovative web applications.</p>
+                <a href="#projects" class="cta-button" aria-label="View projects">View My Projects</a>
             </div>
             <div class="hero-image">
-                <img src="profile.jpg" alt="Your Profile Picture">
+                <img src="profile.jpg" alt="Your Profile Picture" aria-label="Profile picture">
             </div>
         </section>
 
@@ -44,8 +48,8 @@
         </section>
 
         <section id="skills" class="skills">
-            <h2>Skills</h2>
-            <div class="skills-list">
+            <h2>Technical Skills</h2>
+            <div class="skills-matrix">
                 <div class="skill-category">
                     <h3>Front-End</h3>
                     <ul>
@@ -86,42 +90,85 @@
                     <img src="images/project1.jpg" alt="Heart Disease Risk Assessment">
                     <h3>Heart Disease Risk Assessment</h3>
                     <p>A Python and Streamlit-based application to assess heart disease risk.</p>
+                    <p>Technologies used: Python, Streamlit, Pandas, NumPy</p>
                     <div class="project-links">
                         <a href="link/to/demo" target="_blank">Live Demo</a>
-                        <a href="https://github.com/jstnpbl/project1" target="_blank">GitHub Repo</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/project2.jpg" alt="Secure Login System">
-                    <h3>Secure Login System</h3>
-                    <p>A PHP and SQL-based secure login system for web applications.</p>
-                    <div class="project-links">
-                        <a href="link/to/demo" target="_blank">Live Demo</a>
-                        <a href="https://github.com/jstnpbl/project2" target="_blank">GitHub Repo</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-            <div class="contact-info">
-                <p><a href="mailto:justinpabale896@gmail.com">justinpabale896@gmail.com</a></p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/justin-pabale-9461b22a6/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/jstnpbl" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Justin L. Pabale. All rights reserved.</p>
-    </footer>
-
-    <button id="back-to-top" aria-label="Back to top">↑</button>
-
-    <script src="script.js"></script>
-</body>
-</html>
+                        <a href="[https://github.com/jstnpbl/project1"](https://github.com/jstnpbl/project1") target                        <a href="[https://github.com/jstnpbl/project1"](https://github.com/jstnpbl/project1") target="_blank">GitHub Repo</a>
+                                            </div>
+                                        </div>
+                                        <div class="project-card">
+                                            <img src="images/project2.jpg" alt="Secure Login System">
+                                            <h3>Secure Login System</h3>
+                                            <p>A PHP and SQL-based secure login system for web applications.</p>
+                                            <p>Technologies used: PHP, SQL, HTML, CSS</p>
+                                            <div class="project-links">
+                                                <a href="link/to/demo" target="_blank">Live Demo</a>
+                                                <a href="[https://github.com/jstnpbl/project2"](https://github.com/jstnpbl/project2") target="_blank">GitHub Repo</a>
+                                            </div>
+                                        </div>
+                                        <div class="project-card">
+                                            <img src="images/project3.jpg" alt="Animal Guessing Game">
+                                            <h3>Animal Guessing Game</h3>
+                                            <p>A Unity-based game where players guess the animal based on its characteristics.</p>
+                                            <p>Technologies used: Unity, C#, JavaScript</p>
+                                            <div class="project-links">
+                                                <a href="link/to/demo" target="_blank">Live Demo</a>
+                                                <a href="[https://github.com/jstnpbl/project3"](https://github.com/jstnpbl/project3") target="_blank">GitHub Repo</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                        
+                                <section id="testimonials" class="testimonials">
+                                    <h2>What Others Say About Me</h2>
+                                    <div class="testimonial-grid">
+                                        <div class="testimonial-card">
+                                            <p>"Justin is a highly motivated and detail-oriented individual who is always eager to learn and take on new challenges. He is a valuable asset to any team."</p>
+                                            <p>- John Doe, Professor at XYZ University</p>
+                                        </div>
+                                        <div class="testimonial-card">
+                                            <p>"I had the pleasure of working with Justin on a project and was impressed by his technical skills and ability to work well under pressure."</p>
+                                            <p>- Jane Smith, Software Engineer at ABC Company</p>
+                                        </div>
+                                    </div>
+                                </section>
+                        
+                                <section id="contact" class="contact">
+                                    <h2>Get in Touch</h2>
+                                    <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                                    <div class="contact-info">
+                                        <p><a href="mailto:justinpabale896@gmail.com">justinpabale896@gmail.com</a></p>
+                                        <div class="social-links">
+                                            <a href="[https://www.linkedin.com/in/justin-pabale-9461b22a6/"](https://www.linkedin.com/in/justin-pabale-9461b22a6/") target="_blank">LinkedIn</a>
+                                            <a href="[https://github.com/jstnpbl"](https://github.com/jstnpbl") target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                                </section>
+                        
+                                <section id="blog" class="blog">
+                                    <h2>Blog</h2>
+                                    <p>Check out my latest blog posts on web development and related topics.</p>
+                                    <div class="blog-grid">
+                                        <div class="blog-card">
+                                            <h3>Introduction to Web Development</h3>
+                                            <p>A beginner's guide to web development, covering the basics of HTML, CSS, and JavaScript.</p>
+                                            <a href="link/to/blog/post" target="_blank">Read More</a>
+                                        </div>
+                                        <div class="blog-card">
+                                            <h3>Top 5 Web Development Frameworks</h3>
+                                            <p>A review of the top 5 web development frameworks, including React, Angular, and Vue.js.</p>
+                                            <a href="link/to/blog/post" target="_blank">Read More</a>
+                                        </div>
+                                    </div>
+                                </section>
+                            </main>
+                        
+                            <footer>
+                                <p>&copy; 2025 Justin L. Pabale. All rights reserved.</p>
+                            </footer>
+                        
+                            <button id="back-to-top" aria-label="Back to top">↑</button>
+                        
+                            <script src="script.js"></script>
+                        </body>
+                        </html>
